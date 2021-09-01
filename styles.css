@@ -9,12 +9,13 @@
 
 .container {
     padding: 20px;
-    margin: 50%
+    margin: 10px;
 }
 
 .card {
     text-align: center;
-    padding: 1px;
+    padding: 10px;
+    margin: 10px;
     
     
     
@@ -23,8 +24,7 @@
 
 
 .card img {
-    height: auto;
-    width: 10px;
+    : 10%;
     align-items: baseline;
 }
 
@@ -35,5 +35,5 @@ h4 {
 
 footer {
 
-    
+  
 }
