@@ -1,39 +1,74 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.nav {
+margin: 0;
+padding: 0;
+}
 
-.navbar-nav {
-   
+.nav-link {
+    text-align: end;
+    text-decoration: underline;
+}
 
+    h1 {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
 }
 .header {
-    width: 50%;
-}
 
+}
 .container {
     padding: 20px;
     margin: 10px;
+    
+    
 }
 
+
 .card {
-    text-align: center;
+
     padding: 10px;
     margin: 10px;
     
     
-    
 }
 
+.card p {
+    padding-left: 10px;
+}
 
 
 .card img {
-    : 10%;
-    align-items: baseline;
+    height: 250px;
+    
+    border-radius: 10px 10px 0 10px;
+    
 }
 
-h4 {
-    color: aqua;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+form {
+    padding: 5px; 
+    margin: 20px; 
+    border: solid black; 
+    background-color: cyan;
+    
+   
 }
+
+
+
+
+
 
 footer {
+     text-align: center;
+  }
 
-  
+#contact a {
+    text-align: end;
 }
+
+

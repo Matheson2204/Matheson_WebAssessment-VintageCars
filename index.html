@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link href="styles.css" rel="stylesheet"
-    <title>Vintage Cars</title>
+    <title></title>
   </head>
   <body>
       
@@ -21,7 +21,7 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#Home">Cars</a>
@@ -45,7 +45,7 @@
    
     <h4 class="text text-info">Car listings</h4>
 
-<div class="card-group" id="Home" style=" padding: 50;">
+<div class="card-group" id="Home">
         <div class="col">
             <div class="card">
             <img src="images/eleanor.jpeg" class="card-img-top" alt="1967 Eleanor Mustang">
@@ -87,10 +87,11 @@
     </div>
 </div>
 </section>
-    <!-- Car Listing stops --><div class="container>
+    <!-- Car Listing stops -->
 <form>
     <!-- Enquiries here -->
-     mb-3" id="Enquire" style="padding: 1%; margin: 20px; border: solid black; background-color: cyan; ">
+    
+      <div class="container" id="Enquire">
         <h4 class="text text-success">Enquire about a car</h4>
         <div class="col-md-4">
             <label for="Full-name" class="form-label">Full name</label>
@@ -117,7 +118,7 @@
         <div class="col-12 my-4">
             <button class="btn btn-primary" type="submit">Submit form</button>
           </div>
-        
+      </div>
       </div>
     </div>
 </div>
@@ -125,7 +126,7 @@
 </form>
 <section>
     <div class="container">
-<div class="text-start mb-3" id="Contact" style="padding: 10px;">
+<div class="text" id="Contact" ">
     <h2>Contacts</h2>
     <p>
         Address: 723 Sydney Rd, Coburg VIC 3058, Australia
@@ -134,11 +135,13 @@
         <br>
         Email: xxx@xxx.com
     </p>
-    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.3688125523067!2d144.96313131615312!3d-37.73449097976664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad6453c3c569dfb%3A0x97231cb0c2493f54!2sMelbourne%20Unique%20Car%20Sales!5e0!3m2!1sen!2sus!4v1630464869829!5m2!1sen!2sus" width="600" height="450" style="border:solid black;" allowfullscreen="" loading="lazy"></iframe></p>
-</div>
-<div><a class="nav-link text text-decoration-underline text-end"  href="#navbarNav">Back to top</a></div>
+    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.3688125523067!2d144.96313131615312!3d-37.73449097976664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad6453c3c569dfb%3A0x97231cb0c2493f54!2sMelbourne%20Unique%20Car%20Sales!5e0!3m2!1sen!2sus!4v1630464869829!5m2!1sen!2sus" 
+      width="100%" height="450" style="border:solid black;" allowfullscreen="" loading="lazy"></iframe></p>
 </div>
 </section>
+<div><a class="nav-link" href="#navbarNav">Back to top</a></div>
+</div>
+
       
     <!-- Footer Starts -->
 <footer>
