@@ -7,8 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link href="styles.css" rel="stylesheet"
-    <title></title>
+    <link href="styles.css" rel="stylesheet">
+    <title>Vintage Cars</title>
   </head>
   <body>
       
@@ -18,8 +18,8 @@
           <a class="navbar-brand" href="#">
               <img src="images/VC logo.jfif" alt="VC logo" width="40" height="40"> 
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <button class="navbar-toggler navbar-toggler-icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
@@ -35,71 +35,73 @@
             </ul>
           </div>
         </div>
-      </nav>
+    </nav>
         
       
     <!-- Nav Ends here -->
     <Header> <h1 class="text-center text-info" >Vintage Cars for Hire!</h1></Header>
-<!-- car listing starts here -->
-<section>
+    <!-- car listing starts here -->
+    <section>
    
-    <h4 class="text text-info">Car listings</h4>
+        <h4 class="text text-info">Car listings</h4>
 
-<div class="card-group" id="Home">
-        <div class="col">
-            <div class="card">
-            <img src="images/eleanor.jpeg" class="card-img-top" alt="1967 Eleanor Mustang">
-            <div class="card-body">
-              <h5 class="card-title">1967 Eleanor Mustang</h5>
-              <p class="card-text">Brand: Eleanor.<br>Seats: 2 
-              </p>
+          <div class="card-group" id="Home">
+            <div class="col">
+                <div class="card">
+                  <img src="images/eleanor.jpeg" class="card-img-top" alt="1967 Eleanor Mustang">
+                  <div class="card-body">
+                    <h5 class="card-title">1967 Eleanor Mustang</h5>
+                    <p class="card-text">Brand: Eleanor.<br>Seats: 2</p>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        
-        <div class="col">
-    <div class="card">
-            <img src="images/Monaro.jpg" class="card-img-top" alt="1968 Holden HK Monaro">
-            <div class="card-body">
-              <h5 class="card-title">1968 Holden HK Monaro</h5>
-              <p class="card-text">Brand: Manaro.<br>Seats: 4
-              </p>
-            </div>
-        </div>
-        </div>
-        <div class="col">
-        <div class="card">
-            <img src="images/RedMustang-80-v3.jpg" class="card-img-top" alt="1967 Ford Mustang Fastback">
-            <div class="card-body">
-              <h5 class="card-title">1967 Ford Mustang Fastback</h5>
-              <p class="card-text">Brand: Ford.<br>Seats: 2</p>
-          </div>
-          </div>
-        </div>
-        <div class="col">
-           <div class="card">
-            <img src="images/tania_wicks.jpg" class="card-img-top" alt="1982 Toyota Landcruiser">
+          
+            <div class="col">
+              <div class="card">
+                <img src="images/Monaro.jpg" class="card-img-top" alt="1968 Holden HK Monaro">
                 <div class="card-body">
-                  <h5 class="card-title">1982 Toyota Landcruiser</h5>
-                  <p class="card-text">Brand: Toyota.<br>Seats: 2</p>
+                  <h5 class="card-title">1968 Holden HK Monaro</h5>
+                  <p class="card-text">Brand: Manaro.<br>Seats: 4</p>
+                  
+                </div>
+             </div>
+           </div>
+            
+          <div class="col">
+            <div class="card">
+                <img src="images/RedMustang-80-v3.jpg" class="card-img-top" alt="1967 Ford Mustang Fastback">
+                <div class="card-body">
+                  <h5 class="card-title">1967 Ford Mustang Fastback</h5>
+                  <p class="card-text">Brand: Ford.<br>Seats: 2</p>
+              </div>
             </div>
-        </div>
+          </div>
+            
+            <div class="col">
+              <div class="card">
+                <img src="images/tania_wicks.jpg" class="card-img-top" alt="1982 Toyota Landcruiser">
+                    <div class="card-body">
+                      <h5 class="card-title">1982 Toyota Landcruiser</h5>
+                      <p class="card-text">Brand: Toyota.<br>Seats: 2</p>
+                    </div>
+              </div>
+            </div>
     </div>
-</div>
-</section>
+    </section>
     <!-- Car Listing stops -->
-<form>
-    <!-- Enquiries here -->
     
-      <div class="container" id="Enquire">
-        <h4 class="text text-success">Enquire about a car</h4>
+    
+    <!-- Enquiries here -->
+    <div class="container" id="Enquire">
+<form>
+    <h4 class="text text-success">Enquire about a car</h4>
         <div class="col-md-4">
             <label for="Full-name" class="form-label">Full name</label>
-          <input type="text" class="form-control" placeholder="Full-name" aria-label="Full-name">
+              <input type="text" class="form-control" placeholder="Full-name" aria-label="Full-name">
         </div>
         <div class="col-md-4">
-            <label for="Email-Address" class="form-label">Email Address</label>
-          <input type="text" class="form-control" form-label="Email Address" placeholder="Email address" aria-label="Email address">
+              <label for="Email-Address" class="form-label">Email Address</label>
+              <input type="text" class="form-control" form-label="Email Address" placeholder="Email address" aria-label="Email address">
         </div>
         <div class="col-md-3">
             <label for="validationCustom04" class="form-label">Choose a Car</label>
@@ -110,51 +112,47 @@
               <option>1967 Ford Mustang Fastback</option>
               <option>1982 Toyota Landcruiser</option>
             </select>
-        </span>
+        
       </div>
       <label for="Comment" class="form-label">Comment</label>
-      <div class="form-floating">
-        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 100px;"></textarea>
-        <div class="col-12 my-4">
-            <button class="btn btn-primary" type="submit">Submit form</button>
-          </div>
-      </div>
-      </div>
-    </div>
-</div>
+        <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 100px;"></textarea>
+            <div class="col-12 my-4">
+                <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+        </div>
+  </div>
+    
+
     <!-- Enquiries end -->
 </form>
 <section>
-    <div class="container">
-<div class="text" id="Contact" ">
-    <h2>Contacts</h2>
-    <p>
-        Address: 723 Sydney Rd, Coburg VIC 3058, Australia
-        <br>
-        Phone: xxxxx0000
-        <br>
-        Email: xxx@xxx.com
-    </p>
-    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.3688125523067!2d144.96313131615312!3d-37.73449097976664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad6453c3c569dfb%3A0x97231cb0c2493f54!2sMelbourne%20Unique%20Car%20Sales!5e0!3m2!1sen!2sus!4v1630464869829!5m2!1sen!2sus" 
-      width="100%" height="450" style="border:solid black;" allowfullscreen="" loading="lazy"></iframe></p>
-</div>
+    <!-- Contact start -->
+  <div class="container">
+    <div class="Email" id="Contact">
+          <h2>Contacts</h2>
+          <p>
+              Address: 723 Sydney Rd, Coburg VIC 3058, Australia
+              <br>
+              Phone: xxxxx0000
+              <br>
+              Email: xxx@xxx.com
+          </p>
+            <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.3688125523067!2d144.96313131615312!3d-37.73449097976664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad6453c3c569dfb%3A0x97231cb0c2493f54!2sMelbourne%20Unique%20Car%20Sales!5e0!3m2!1sen!2sus!4v1630464869829!5m2!1sen!2sus" 
+            width="100%" height="450" style="border:solid black;" allowfullscreen="" loading="lazy"></iframe></p>
+    </div>
+  </div>
 </section>
+<!-- Contact ends -->
 <div><a class="nav-link" href="#navbarNav">Back to top</a></div>
 </div>
 
       
-    <!-- Footer Starts -->
+<!-- Footer Starts -->
 <footer>
-    <!-- Contact Header -->
-   
     <p>Copyright @LL. All rights reserved 2021</p>
-
-        
-    <!-- Contact end -->
-
-<!-- Footer Ends -->
 </footer> 
-
+<!-- Footer Ends -->
 
     <!-- Optional JavaScript; choose one of the two! -->
 
