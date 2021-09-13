@@ -13,24 +13,23 @@ padding: 0;
     text-align: end;
     text-decoration: underline;
 }
-
-    h1 {
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
+h1 {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.header {
+
+
+header {
 
 }
 .container {
     padding: 20px;
-    margin: 10px;
-    
+    margin: 10px;    
     
 }
 
 
 .card {
-
+   height: 90%;
     padding: 10px;
     margin: 10px;
     
@@ -44,31 +43,42 @@ padding: 0;
 
 .card img {
     height: 250px;
-    
     border-radius: 10px 10px 0 10px;
-    
-}
+    }
 
 form {
-    padding: 5px; 
+    padding: 10px; 
     margin: 20px; 
     border: solid black; 
     background-color: cyan;
-    
+    min-width: fit-content;
+    max-width: 100%;
    
 }
 
-
-
-
+form.form-label {
+    margin-bottom: 0px;
+}
 
 
 footer {
      text-align: center;
   }
 
+#contact {
+}
+
+
 #contact a {
     text-align: end;
 }
 
 
+
+iframe  {
+    width: 100%; 
+    height: 450px;
+    border: solid black;
+    
+
+    }
